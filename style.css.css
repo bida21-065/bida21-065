@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: gold;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	background-image: url(traditional.jpeg);
+}
+.menu ul{
+	display: inline-flex;
+	margin: 50px;
+	}
+.menu ul li{
+	list-style: none;
+	margin: 0 28px;
+	color: #fff;
+	cursor: pointer;
+}
+.logo img{
+	width: 150px;
+	margin-top: -7px;
+	margin-right: 48px;
+}
+.active{
+	color: #fff!important;
+}
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 25%;
+	left: 130px;
+	position: absolute;
+	color: white;
+}
+.signup-btn{
+	top: 40px;
+	right: 80px;
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+}
+.signup-btn span{
+	display: block;
+	padding: 8px 22px;
+}
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	padding-top: 30px;
+	transform: translate(-50%, -50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: black;
+}
+.learn-more-btn{
+	color: gold;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 400%;
+	transition: 0.6s ease;
+	border: 1px solid gold;
+	}
+.contact-btn{
+	color: 80px;
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#c8cbdd,#42455a),radial-gradient(circle at top left,#645a63,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+}
+.contact-btn span{
+	display: block;
+	padding: 8px 22px;
+}
+.background-image{
+	width: 300px;
+	height: 100px;
+	
+}
